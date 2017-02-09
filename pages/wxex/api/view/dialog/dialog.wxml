@@ -1,0 +1,6 @@
+<!--pages/wxex/api/view/dialog/dialog.wxml-->
+<text>pages/wxex/api/view/dialog/dialog.wxml</text>
+<button bindtap="onShowToast" type="primary">showToast</button>
+<button bindtap="onShowModal" type="primary">showModal</button>
+<button bindtap="onShowModalDefine" type="primary">showModalDefine</button>
+<button bindtap="onShowMenu" type="primary">showMenuAction</button>

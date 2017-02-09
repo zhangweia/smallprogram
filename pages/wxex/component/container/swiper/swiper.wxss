@@ -1,0 +1,21 @@
+/* pages/wxex/component/container/swiper/swiper.wxss */
+
+.swiper_item{
+    position: relative;
+}
+
+.swiper_item_info{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    opacity:0.5;
+    width: 100%;
+    padding: 6px;
+    color: white;
+
+}
+
+.swiper_img{
+    width: 100%;
+    height: 150px;
+}

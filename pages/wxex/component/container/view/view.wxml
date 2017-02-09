@@ -1,0 +1,13 @@
+
+<!--pages/wxex/component/container/view/view.wxml-->
+<view class="cBaseView">
+    view我们可以看做html的div，是一个没有功能的容器，主要用来标识一段区域,
+    同时也可以作为一个文本区域和作为一个按钮，因为他包含了以下的属性\n    
+</view>
+<view class="cBaseView">1. hover	Boolean	false	是否启用点击态</view>
+<view class="cBaseView">2. hover-class	String	none	指定按下去的样式类。当 hover-class="none" 时，没有点击态效果</view>
+<view class="cBaseView">3. hover-start-time	Number	50	按住后多久出现点击态，单位毫秒</view>
+<view class="cBaseView">4. hover-stay-time	Number	400	手指松开后点击态保留时间，单位毫秒</view>
+
+<view class="cBaseView" hover="true" hover-class="cBaseViewHover">给view添加点击效果</view>
+

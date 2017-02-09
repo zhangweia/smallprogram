@@ -1,0 +1,3 @@
+<!--pages/wxex/api/view/NavigationBarTitle/NavigationBarTitle.wxml-->
+<text>pages/wxex/api/view/NavigationBarTitle/NavigationBarTitle.wxml</text>
+<button bindtap="setNavigationBarTitle">setNavigationBarTitle</button>

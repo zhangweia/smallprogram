@@ -1,0 +1,7 @@
+<!--pages/wxex/framework/framework/reference/reference.wxml-->
+<text>pages/wxex/framework/framework/reference/reference.wxml</text>
+<view>reference包含了2种引用方式</view>
+<view>import</view>
+<view>import可以导入模板中的某一块,有些类似android中的adapter</view>
+<view>include</view>
+<view>include用于包含一个wxml文件</view>

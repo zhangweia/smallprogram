@@ -1,0 +1,12 @@
+<!--pages/wxex/framework/framework/event/event.wxml-->
+<text>事件</text>
+<view>在组件中绑定一个事件处理函数:如bindtap，当用户点击该组件的时候会在该页面对应的Page中找到相应的事件处理函数。</view>
+
+<view id="tapTest" data-hi="WeChat" bindtap="tapName"> Click me! </view>
+
+<view>事件中参数的传递通过以data-开头，多个单词由连字符-链接，不能有大写(大写会自动转成小写)如data-element-type，最终在 event.target.dataset 中会将连字符转成驼峰elementType</view>
+<view data-alpha-beta="1" data-alphaBeta="2" bindtap="bindViewTap"> DataSet Test </view>
+<view>另外一种数据的传递是通过参数detail，不同的组件赋值不同，比如swiper的bindchange事件的event.detail保存的是current的值</view>
+<view>touch事件</view>
+<view>事件的传递</view>
+<view>事件的属性</view>

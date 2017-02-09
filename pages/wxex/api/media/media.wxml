@@ -1,0 +1,3 @@
+<!--pages/wxex/api/media/media.wxml-->
+<text>pages/wxex/api/media/media.wxml</text>
+<image src="{{img01}}"></image>

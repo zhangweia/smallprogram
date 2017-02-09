@@ -1,0 +1,9 @@
+<!--pages/wxex/component/container/scrollview/HScroll/HScrollView.wxml-->
+
+<view >horizontal scroll</view>
+<scroll-view  scroll-y="true" style="height:100px">
+    <view id="green" class="scroll-view-item_H bc_green"></view>
+    <view id="red"  class="scroll-view-item_H bc_red"></view>
+    <view id="yellow" class="scroll-view-item_H bc_yellow"></view>
+    <view id="blue" class="scroll-view-item_H bc_blue"></view>
+</scroll-view>

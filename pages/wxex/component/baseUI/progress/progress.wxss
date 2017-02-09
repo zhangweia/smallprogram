@@ -1,0 +1,4 @@
+/* pages/wxex/component/baseUI/progress/progress.wxss */
+progress{
+    padding: 10px;
+}

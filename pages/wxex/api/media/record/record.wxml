@@ -1,0 +1,10 @@
+<!--pages/wxex/api/media/record/record.wxml-->
+<text>调用录音功能，没有界面，需要自己实现录音的界面界面，另外录音需要用户权限</text>
+
+<button bindtap="startRecord">start record</button>
+<button bindtap="stopRecode">stop record</button>
+
+<text>播放录制的声音</text>
+<button bindtap="playVoice">playVoice</button>
+<button bindtap="pauseVoice">pauseVoice</button>
+<button bindtap="stopVoice">stopVoice</button>

@@ -1,0 +1,22 @@
+<!--pages/wxex/component/form/button/button.wxml-->
+<text>button.wxml</text>
+<view>size	默认default，填充当前行，mini:根据字体的长度显示大小</view>
+<view>type	样式默认default:圆角灰色，primary:基本绿色圆角, warn：警告红色圆角</view>
+<view>plain 背景色是否透明，镂空，默认false</view>
+<view>disabled	是否禁用点击</view>
+<view>loading	名称前是否带loading 图标,默认false</view>
+<view>form-type	String	无	有效值：submit, reset，用于 <form/> 组件，点击分别会触发 submit/reset 事件</view>
+<view>hover-class	String	button-hover	指定按钮按下去的样式类。当 hover-class="none" 时，没有点击态效果</view>
+<view>hover-start-time	Number	50	按住后多久出现点击态，单位毫秒</view>
+<view>hover-stay-time	Number	400	手指松开后点击态保留时间，单位毫秒</view>
+<view>注：button-hover 默认为{background-color: rgba(0, 0, 0, 0.1); opacity: 0.7;}</view>
+
+<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> default </button>
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> primary </button>
+<button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="warn"> warn </button>
+<button bindtap="setDisabled">点击设置以上按钮disabled属性</button>
+<button bindtap="setPlain">点击设置以上按钮plain属性</button>
+<button bindtap="setLoading">点击设置以上按钮loading属性</button>

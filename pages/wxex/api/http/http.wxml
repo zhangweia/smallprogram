@@ -1,0 +1,3 @@
+<!--pages/wxex/api/http/http.wxml-->
+<text>pages/wxex/api/http/http.wxml</text>
+<button bindtap="sendHttpReq">httpReq</button>

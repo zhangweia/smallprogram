@@ -1,0 +1,7 @@
+<!--pages/wxex/api/media/image/image.wxml-->
+<button bindtap="ehchooseImage">chooseImage</button>
+<image src="{{image01}}" width='100px' height='100px'></image>
+
+<button bindtap="previewImage">previewImage</button>
+
+<button bindtap="getImageInfo">get image info</button>

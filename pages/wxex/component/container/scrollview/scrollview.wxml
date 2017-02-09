@@ -1,0 +1,3 @@
+<!--pages/wxex/component/container/scrollview/scrollview.wxml-->
+<button class="cBigButton">Horizontal scroll</button>
+<button class="cBigButton">vertital scroll</button>

@@ -1,0 +1,13 @@
+<!--pages/wxex/component/media/image/image.wxml-->
+<view>
+  <view>image 图片</view>
+  <view>
+    <view  wx:for="{{array}}" wx:for-item="item" wx:key="{{index}}">
+      <view >{{item.text}}</view>
+      <view >
+        <image bindload="imgLoadFinish" binderror="imageError"
+        style="width: 100%; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

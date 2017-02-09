@@ -1,0 +1,6 @@
+<!--pages/wxex/component/form/form.wxml-->
+<button wx:for="{{itemData}}" wx:key="{{index}}" data-index="{{index}}"
+    size="default" type="primary" 
+    bindtap="btnOnClick">
+    {{item.name}}
+</button>

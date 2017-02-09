@@ -1,0 +1,4 @@
+/* pages/wxex/component/form/slider/slider.wxss */
+view{
+    border: none;
+}

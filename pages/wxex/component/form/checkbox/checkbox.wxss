@@ -1,0 +1,5 @@
+/* pages/wxex/component/form/checkbox/checkbox.wxss */
+
+.checkbox{
+    display: block;
+}

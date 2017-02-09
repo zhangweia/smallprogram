@@ -1,0 +1,22 @@
+/* pages/wxex/component/container/scrollview/HScroll/HScrollView.wxss */
+.scroll-view-item_H{
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+}
+
+.bc_green{
+    background-color: green;
+}
+
+.bc_red{
+    background-color: red;
+}
+
+.bc_yellow{
+    background-color: yellow;
+}
+
+.bc_blue{
+    background-color: blue;
+}

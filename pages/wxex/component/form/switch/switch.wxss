@@ -1,0 +1,5 @@
+/* pages/wxex/component/form/switch/switch.wxss */
+switch{
+    display: block;
+    margin-top: 10px;
+}

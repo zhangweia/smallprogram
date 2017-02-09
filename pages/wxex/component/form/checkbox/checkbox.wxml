@@ -1,0 +1,15 @@
+<!--pages/wxex/component/form/checkbox/checkbox.wxml-->
+<text>checkbox.wxml,checkbox控件本身只是一个选择框，一般不单独存在，需配合label和checkbox-group一起使用</text>
+<view>value	当前checkbox显示的值</view>
+<view>disabled 是否禁用选择</view>
+<view>checked	Boolean	false	当前是否选中，可用来设置默认选中</view>
+<view>color	Color		checkbox的颜色，同css的color</view>
+
+<checkbox value="{{item[0].name}}" checked="{{item[0].checked}}"/>
+<view></view>
+
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{items}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</checkbox-group>

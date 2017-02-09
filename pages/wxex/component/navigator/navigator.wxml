@@ -1,0 +1,10 @@
+<!--pages/wxex/component/navigator/navigator.wxml-->
+<text>pages/wxex/component/navigator/navigator.wxml</text>
+<view>url 应用内的跳转链接</view>
+<view>open-type	导航类型可选值 'navigate'、'redirect'、'switchTab'，对应于wx.navigateTo、wx.redirectTo、wx.switchTab的功能</view>
+<view>hover-class 指定点击时的样式类，当hover-class="none"时，没有点击态效果</view>
+<view class="btn-area">
+  <navigator url="../baseUI/icon/icon" open-type="navigate" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="../baseUI/text/text" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+  <navigator url="index" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+</view>

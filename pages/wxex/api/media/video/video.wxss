@@ -1,0 +1,5 @@
+/* pages/wxex/api/media/video/video.wxss */
+#myVideo{
+    width: 100%;
+    height: 200px;
+}

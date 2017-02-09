@@ -1,0 +1,3 @@
+<!--pages/wxex/api/view/pushRefresh/pushRefresh.wxml-->
+<text>pages/wxex/api/view/pushRefresh/pushRefresh.wxml</text>
+<button bindtap="onPushRefresh">pushRefresh</button>

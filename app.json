@@ -1,0 +1,108 @@
+{
+  "pages":[
+
+    "pages/wxex/framework/framework",
+    "pages/wxex/component/component",
+    "pages/wxex/api/api",
+
+    "pages/wxex/component/navigator/navigator",
+    "pages/wxex/template/ListTemplate",
+    "pages/wxex/framework/framework/template/template",
+    "pages/wxex/framework/framework/reference/reference",
+
+    "pages/wxex/framework/framework/event/event",
+    "pages/wxex/framework/framework/dataBind/dataBind",
+    "pages/wxex/framework/framework/listRender/listRender",
+
+    "pages/wxex/component/media/media",
+    "pages/wxex/component/media/image/image",
+    "pages/wxex/component/media/video/video",
+    "pages/wxex/component/media/audio/audio",
+
+    "pages/wxex/component/container/container",
+    "pages/wxex/component/container/scrollview/scrollview",
+    "pages/wxex/component/container/scrollview/HScroll/HScrollView",
+    "pages/wxex/component/container/view/view",
+    "pages/wxex/component/container/swiper/swiper",
+
+    "pages/wxex/component/form/form",
+    "pages/wxex/component/form/textarea/textarea",
+    "pages/wxex/component/form/switch/switch",
+    "pages/wxex/component/form/slider/slider",
+    "pages/wxex/component/form/radio/radio",
+    "pages/wxex/component/form/picker-view/picker-view",
+    "pages/wxex/component/form/picker/picker",
+    "pages/wxex/component/form/input/input",
+    "pages/wxex/component/form/checkbox/checkbox",
+    "pages/wxex/component/form/button/button",
+
+    "pages/wxex/component/canvas/canvas",
+    "pages/wxex/component/map/map",
+
+    "pages/wxex/component/baseUI/baseUI",
+    "pages/wxex/component/baseUI/progress/progress",    
+    "pages/wxex/component/baseUI/text/text",
+    "pages/wxex/component/baseUI/icon/icon",
+
+    "pages/wxex/api/view/pushRefresh/pushRefresh",
+    "pages/wxex/api/view/navigate/navigate",
+    "pages/wxex/api/view/NavigationBarTitle/NavigationBarTitle",
+    "pages/wxex/api/view/dialog/dialog",
+    "pages/wxex/api/view/view",
+    "pages/wxex/api/file/file",
+    "pages/wxex/api/media/video/video",
+    "pages/wxex/api/media/audio/backgroundAudio",
+
+    "pages/wxex/api/media/record/record",
+    
+    "pages/wxex/api/media/image/image",
+    
+    "pages/wxex/api/media/media",
+    "pages/wxex/api/http/http"
+  ],
+
+  "tabBar": {
+    "color": "#ccc",  
+    "selectedColor": "#35495e",  
+    "borderStyle": "block",  
+    "backgroundColor": "#f9f9f9", 
+    "list": [
+      {
+      "pagePath": "pages/wxex/framework/framework",
+      "text": "框架",
+      "iconPath": "pages/wxex/image/tab_home.png",
+      "selectedIconPath": "pages/wxex/image/tab_home2.png"
+      },
+      {
+      "pagePath": "pages/wxex/component/component",
+      "text": "组件",
+      "iconPath": "pages/wxex/image/tab_vod.png",
+      "selectedIconPath": "pages/wxex/image/tab_vod2.png"
+    },
+    {
+      "pagePath": "pages/wxex/api/api",
+      "text": "api",
+      "iconPath": "pages/wxex/image/tab_apply.png",
+      "selectedIconPath": "pages/wxex/image/tab_apply2.png"
+    }
+    ]
+  },
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "小程序例子DEMO",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  },
+
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  },
+
+  "debug":true
+
+}

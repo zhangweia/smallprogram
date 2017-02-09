@@ -1,0 +1,9 @@
+<!--pages/wxex/component/baseUI/text/text.wxml-->
+<text>文本</text>
+<view >
+  <view >
+    <text>{{text}}</text>
+    <button bindtap="add">add line</button>
+    <button bindtap="remove">remove line</button>
+  </view>
+</view>

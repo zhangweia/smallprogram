@@ -1,0 +1,6 @@
+<!--pages/wxex/api/view/navigate/navigate.wxml-->
+<text>pages/wxex/api/view/navigate/navigate.wxml</text>
+<button bindtap="onNavigation">navigation</button>
+<button bindtap="redirectTo">redirectTo</button>
+<button bindtap="switchTab">switchTab</button>
+<button bindtap="backToPage">backToPage</button>

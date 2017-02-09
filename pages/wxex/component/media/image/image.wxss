@@ -1,0 +1,5 @@
+/* pages/wxex/component/media/image/image.wxss */
+view{
+    border: none;
+    padding: 0;
+}

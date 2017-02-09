@@ -1,0 +1,15 @@
+<!--pages/wxex/framework/framework/listRender/listRender.wxml-->
+<text>listRender.wxml</text>
+<view>默认数组的当前项的下标变量名默认为index，数组当前项的变量名默认为item</view>
+<view wx:for="{{array}}">{{index}}: {{item.message}}</view>
+
+<view>使用 wx:for-item 可以指定数组当前元素的变量名，使用 wx:for-index 可以指定数组当前下标的变量名：</view>
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.message}}
+</view>
+
+<text>block包住的内容为循环体的某一项，通过block可以做复杂的列表项布局</text>
+<block wx:for="{{[1, 2, 3]}}">
+  <view> {{index}}: </view>
+  <view> {{item}} </view>
+</block>

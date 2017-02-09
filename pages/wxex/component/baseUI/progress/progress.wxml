@@ -1,0 +1,11 @@
+<!--pages/wxex/component/baseUI/progress/progress.wxml-->
+<text>progress.wxml</text>
+<view>percent   百分比0~100</view>
+<view>show-info	是否在进度条右侧显示百分比</view>
+<view>stroke-width	进度条线的宽度，单位px</view>
+<view>color	#09BB07	进度条颜色</view>
+<view>active 是否显示进度条从左往右的动画</view>
+<progress percent="20" show-info />
+<progress percent="40" stroke-width="12" />
+<progress percent="60" color="pink" />
+<progress percent="80" active />

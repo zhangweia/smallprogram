@@ -1,0 +1,3 @@
+<!--pages/wxex/api/file/file.wxml-->
+<text>pages/wxex/api/file/file.wxml</text>
+<button bindtap="fileOpt">fileOpt</button>

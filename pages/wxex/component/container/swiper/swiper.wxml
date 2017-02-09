@@ -1,0 +1,31 @@
+<!--pages/wxex/component/container/swiper/swiper.wxml-->
+<view>swiper:滑块视图</view>
+
+<swiper   bindchange="swiperItemChange"
+  indicator-dots="{{indicatorDots}}" circular="{{circular}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" class='swiper_img' mode="scaleToFill" bindtap="swiperItemClick"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view>indicator-dots:是否显示面板指示点</view>
+<view>autoplay:是否自动播放</view>
+<view>interval:自动切换时间间隔</view>
+<view>duration:切换动画持续时间</view>
+<view>circular:是否衔接滑动，也就是滑动到最后一张后是否接第一张</view>
+<view>current:当前所在的页面</view>
+<view>bindchange:current 改变时会触发 change 事件，event.detail = {current: current},也就是说在事件函数中，
+      可以通过event.detail.current来传递参数</view>
+<view>怎么实现item的点击事件</view>      
+
+<swiper indicator-dots="true">
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item class="swiper_item" >
+      <text class="swiper_item_info">章贝贝{{index}}</text>
+      <image src="{{item}}" class='swiper_img' mode="scaleToFill" />
+    </swiper-item>
+  </block>
+</swiper>

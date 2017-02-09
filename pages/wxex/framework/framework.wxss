@@ -1,0 +1,12 @@
+/* pages/wxex/framework/framework.wxss */
+.cBigButton{
+  width: 80%;
+  background-color: #fff000;
+  color: white;
+  margin-top: 60px;
+}
+
+button{
+  width: 80%;
+  margin: 8px;
+}

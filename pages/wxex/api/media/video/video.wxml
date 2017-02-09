@@ -1,0 +1,5 @@
+<!--pages/wxex/api/media/video/video.wxml-->
+<text>pages/wxex/api/media/video/video.wxml</text>
+
+<video src="{{src}}" id='myVideo'></video>
+<button bindtap="bindButtonTap">获取视频</button>

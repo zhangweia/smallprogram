@@ -1,0 +1,17 @@
+<!--pages/wxex/framework/framework/dataBind/dataBind.wxml-->
+<text>数据绑定：变量、数组、元组</text>
+<scroll-view  scroll-y="true" style="height: 750rpx">
+    <view>简单数据绑定: {{message}}</view>
+
+    <view id='item-{{id}}'>组件属性：属性值是动态的</view>
+
+    <view wx:if='{{condition}}'>控制属性(需要在双引号之内),通过条件来判断是否显示</view>
+
+    <view>运算 a + b + c = {{a + b + c}}</view>
+
+    <view wx:if="{{length>5}}">logic judge length > 5</view>
+
+    <view>String connect  {{name}}:{{sex}}</view>
+
+    <view>路径选择 {{object.key}} {{array[0]}}</view>
+</scroll-view>

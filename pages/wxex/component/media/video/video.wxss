@@ -1,0 +1,8 @@
+/* pages/wxex/component/media/video/video.wxss */
+view{
+    border: none;
+}
+
+.bottomLineView{
+    border-bottom: solid 1px gray;
+}

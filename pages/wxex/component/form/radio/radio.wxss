@@ -1,0 +1,6 @@
+/* pages/wxex/component/form/radio/radio.wxss */
+label{
+    display: block;
+    padding: 6px;
+    
+}

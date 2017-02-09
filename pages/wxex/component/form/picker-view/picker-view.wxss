@@ -1,0 +1,5 @@
+/* pages/wxex/component/form/picker-view/picker-view.wxss */
+view{
+    border: none;
+    padding: 0;
+}
